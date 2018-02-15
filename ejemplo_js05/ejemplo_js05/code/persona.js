@@ -15,4 +15,6 @@ function Persona() {
         apellido = "Ketchup";
         edad = "15";
     }
+    
+    //
 }
