@@ -1,0 +1,22 @@
+h1 {color: red}
+
+span {
+    font-size: 10px;
+    font-weight: bold;
+    color: red;
+}
+
+#un_div {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+#btnComida {
+    width: 100%;
+    height: 80px;
+    background-color: red;
+}
+
+.hide {
+    display: none;
+}

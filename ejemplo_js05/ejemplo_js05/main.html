@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Ejemplo de CSS en archivo distinto</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <script src="libs/jquery-3.3.1.min.js"></script>
+        <script src="code/persona.js"></script>
+        <script src="code/main.js"></script>
+        <link href="code/toastr.css" rel="stylesheet"/>
+        <script src="code/toastr.js"></script>
+    </head>
+    
+    <body>
+        <h1>Esta es un ejemplo03</h1>
+        
+        Nombre(*) <input id="input_nombre" type="text"/> 
+        <span id="val_input_nombre" class="hide">Dato requerido</span>
+        </br>
+        
+        Apellido(*) <input id="input_apellido" type="text"/> 
+        <span id="val_input_apellido" class="hide">Dato requerido</span>
+        </br>
+        
+        Edad <input id="input_edad" type="text"/> 
+        </br>
+
+        <button id="btnComida">Comida</button>
+        
+        <div>
+            <table id="table_personas">
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Edad</th>
+                    <th>Info</th>
+                    <th>Eliminar</th>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
